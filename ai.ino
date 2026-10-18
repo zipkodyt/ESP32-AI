@@ -7,8 +7,8 @@
 #include <SPI.h>
 #include <SD.h>
 
-char ssid[64]     = "I32was1+8";
-char password[64] = "I32was1+81155";
+char ssid[64]     = "wifi";
+char password[64] = "password";
 
 const char* AI_URL     = "https://text.pollinations.ai/openai/chat/completions";
 const char* AI_MODEL   = "openai";
